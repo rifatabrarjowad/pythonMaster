@@ -11,7 +11,9 @@ def fibonacci(number):
 
   print('Fibonacci sequence:')
   print(num1, end=' ')
+  print(num2, end=' ')
   while count < number:
+
     num3 = num1 + num2
     print(num3, end=' ')
     num1 = num2
